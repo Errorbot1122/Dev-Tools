@@ -1,7 +1,7 @@
 {
   "name": "dev-tools",
   "version": "1.0.0",
-  "description": "",
+  "description": "Developer Tools Test Website",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
