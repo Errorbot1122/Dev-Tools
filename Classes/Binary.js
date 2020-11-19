@@ -3,9 +3,6 @@ function IsAPowerOf(exponent, number) {
 }
 
 class Bit {
-  #privateMethod() {
-    return "hello world";
-  }
   #value = false;
 
   constructor(value) {
