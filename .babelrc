@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-syntax-class-properties"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "dynamicImport"
+    ]
+  }
+}
