@@ -8,6 +8,9 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "@babel/eslint-parser": "7.12.1",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-private-methods": "7.12.1",
     "p5": "1.1.9"
   },
   "devDependencies": {
