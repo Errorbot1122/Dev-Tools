@@ -1,7 +1,23 @@
 let JSFile = 'console.log("Hellow World")';
 let HtmlFile =
-  '<!DOCTYPE html><html>\n  <head>\n    <title></title>\n    \n<meta charset="UTF-8" />\n  </head>\n  <body>\n    \n  </body>\n</html>';
-let CssCss = "body {\n  font-family: sans-serif;\n}";
+`
+  <!DOCTYPE html>
+    <html>
+      <head>
+        <title></title>
+        
+        <meta charset="UTF-8" />  
+      </head>
+      <body>
+      </body>
+    </html>
+`;
+let CssCss = 
+`
+  body {
+    font-family: sans-serif;
+  }
+`;
 
 let WindowTypes = [];
 
