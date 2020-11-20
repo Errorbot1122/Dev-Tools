@@ -4,6 +4,7 @@
   "description": "Developer Tools Test Website",
   "main": "index.html",
   "scripts": {
+    "sever": "http-server",
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
