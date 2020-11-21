@@ -1,5 +1,5 @@
-function IsAPowerOf(exponent, number) {
-  return (Math.log(exponent) / Math.log(number)) % 1 === 0;
+function isAPowerOf2(number) {
+  return Math.log2(number) % 1 === 0;
 }
 
 class Bit {
@@ -117,6 +117,6 @@ class BitArray {
 }
 console.log("dsd");
 
-console.log(Math.pow(3, Math.round(Math.log(2) / Math.log(3))));
+console.log(isAPowerOf2(2))
 
 //console.log(Boolean();
