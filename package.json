@@ -1,0 +1,21 @@
+{
+  "name": "dev-tools",
+  "version": "1.0.0",
+  "description": "Developer Tools Test Website",
+  "main": "Server.js",
+  "scripts": {
+    "server": "node Server.js",
+    "start": "parcel Public/index.html --open",
+    "build": "parcel Public/build index.html"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [],
+  "author": "Errorbot1122",
+  "license": "MIT"
+}
