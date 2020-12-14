@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+.Top-Links:link,
+.Top-Links:visited {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Top-Links:link:active,
+.Top-Links:visited:active {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.Link-Heading {
+  margin: 0px;
+}
+
+.Link-Button:hover {
+  background-color: rgb(0, 0, 0, 0.05);
+  border-radius: 5pt;
+  outline-color: transparent;
+  border-color: transparent;
+}
+.Link-Button:active {
+  background-color: rgb(0, 0, 0, 0.15);
+  border-radius: 5pt;
+  outline-color: transparent;
+  border-color: transparent;
+}
+
+.Link-Button {
+  background-color: transparent;
+  border-radius: 5pt;
+  outline-color: transparent;
+  border-color: transparent;
+}
